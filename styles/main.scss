@@ -1,7 +1,26 @@
 html{
     
 }
-
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        list-style: none;
+        li{
+            padding: 4vh;
+            font-size: 25px;
+            text-align: center;
+            &:hover{
+            border-bottom: 1px;
+            color: blueviolet;
+        }
+          
+        }  
+        }
+        
+    }
 #mainSec{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -40,9 +59,6 @@ font-weight: bolder;
                 font-weight: bolder;
                     }
 }
-}
-
-.front{
 }
 .back{
 }
