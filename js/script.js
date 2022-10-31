@@ -24,7 +24,7 @@
                 
                 
                 section.innerHTML += `
-                <article>
+                <article class="back">
     <img src="${apiData.data[index].avatar}" alt="">
    <p>is this <span>${apiData.data[index].first_name}</span>?</p>
 
@@ -32,5 +32,27 @@
 `
 
             }
+            for (let index = 0; index < document.querySelectorAll('article').length; index++) {
+                const element = document.querySelectorAll('article')[index];
+                element.addEventListener('click', function () {
+                if (element.classList[0] == "back") {
+                                  
+                
+                    element.classList.toggle('back')
+                    element.innerHTML = `<img src="${apiData.data[index].avatar}" alt="">
+                    <p>is this <span>${apiData.data[index].first_name}</span>?</p>`
+                     
+                }else{
+                    
+                    element.classList.toggle('back')
+                        element.innerHTML = `<h2>${apiData.data[index].email}</h2>
+                        <h3>is this an email?</h3>`
+
+                        
+      
+                }
+           
+            })
              //When all is set and done
-         })
+          }
+        })

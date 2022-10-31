@@ -21,4 +21,19 @@
   font-size: 40px;
   color: white;
   font-weight: bolder;
+}
+#mainSec article h3 {
+  margin-top: 9vh;
+  margin-left: 4vh;
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+}
+#mainSec article h2 {
+  margin-top: 9vh;
+  margin-left: 18vh;
+  width: 2vh;
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
 }/*# sourceMappingURL=main.css.map */
