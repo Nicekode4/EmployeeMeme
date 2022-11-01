@@ -16,6 +16,10 @@ body {
     color: white;
     text-align: center;
   }
+  header img {
+    height: 15vh;
+    padding: 2vh;
+  }
   header nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -83,6 +87,10 @@ body {
     grid-template-columns: 1fr 1fr;
     color: white;
   }
+  header img {
+    height: 15vh;
+    padding: 2vh;
+  }
   header nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -118,7 +126,7 @@ body {
     margin-top: 1vh;
   }
   #mainSec article p {
-    margin-top: 5vh;
+    margin-top: 11vh;
     margin-left: 4vh;
     font-size: 40px;
     color: white;
